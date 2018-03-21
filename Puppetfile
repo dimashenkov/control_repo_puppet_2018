@@ -23,12 +23,12 @@ mod 'ntp',
   :ref => 'master'
 
 mod 'role',
-  :git => 'https://github.com/rabbitheart/LA_puppet-role.git',
-  :ref => 'master'
+  :git => 'git@github.com:dimashenkov/puppet-role2-master.git',
+  :ref => 'development'
 
 mod 'profile',
-  :git => 'https://github.com/rabbitheart/LA_puppet-profile.git',
-  :ref => 'master'
+  :git => 'git@github.com:dimashenkov/puppet-profile-master.git',
+  :ref => 'development'
 
 mod 'nginx',
   :git => 'https://github.com/rabbitheart/LA_puppet-nginx.git',
