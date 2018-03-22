@@ -26,11 +26,11 @@ mod 'ntp',
 
 mod 'role',
   :git => 'git@github.com:dimashenkov/puppet-role2-master.git',
-  :ref => 'development'
+  :ref => 'test'
 
 mod 'profile',
   :git => 'git@github.com:dimashenkov/puppet-profile-master.git',
-  :ref => 'development'
+  :ref => 'test'
 
 mod 'nginx',
   :git => 'https://github.com/rabbitheart/LA_puppet-nginx.git',
