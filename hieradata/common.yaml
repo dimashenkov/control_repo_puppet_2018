@@ -1,2 +1,17 @@
 ---
-message: "This node is using common data"
+profile::base::ntp_servers:
+ - 0.ubunut.pool.ntp.org
+ - 1.ubunut.pool.ntp.org
+ - 2.ubunut.pool.ntp.org
+ - 3.ubunut.pool.ntp.org
+profile::apache::default_vhost: false
+profile::apache::apache_vhost_servers: {
+        'dshenkov6.mylabserver.com': {
+                port: 90,
+                docroot: '/var/www/dshenkov6'
+ },
+         'dshenkov6.mylabserver.com': {
+                 port: 90,
+                 docroot: '/var/www/dshenkov6b'
+}
+}
