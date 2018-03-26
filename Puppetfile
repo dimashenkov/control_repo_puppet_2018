@@ -33,6 +33,6 @@ mod 'profile',
   :branch => 'master'
   #:default_branch => 'production'
 mod 'nginx',
-  :git => 'https://github.com/dimashenkov/control_repo_puppet_2018.git',
+  :git => 'https://github.com/dimashenkov/puppet-nginx.git',
   :branch => 'master'
   #:default_branch => 'production'
