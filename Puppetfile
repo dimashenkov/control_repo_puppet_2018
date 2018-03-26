@@ -23,7 +23,7 @@ mod "stahnma/epel",           '1.2.2'
 mod 'ntp',
   :git => 'https://github.com/rabbitheart/LA_puppet-ntp.git',
   :ref => 'master'
-  :default_branch => 'production'
+ # :default_branch => 'production'
 mod 'role',
   :git => 'git@github.com:dimashenkov/puppet-role2-master.git',
   :ref => 'master'
@@ -32,7 +32,7 @@ mod 'profile',
   :git => 'git@github.com:dimashenkov/puppet-profile-master.git',
   :ref => 'master'
   :default_branch => 'production'
-#mod 'nginx',
- # :git => 'https://github.com/dimashenkov/control_repo_puppet_2018.git',
-  #:ref => 'master'
-  #:default_branch => 'production'
+mod 'nginx',
+  :git => 'https://github.com/dimashenkov/control_repo_puppet_2018.git',
+  :ref => 'master'
+  :default_branch => 'production'
