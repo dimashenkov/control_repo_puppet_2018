@@ -23,7 +23,7 @@ mod "stahnma/epel",           '1.2.2'
 mod 'ntp',
   :git => 'https://github.com/rabbitheart/LA_puppet-ntp.git',
   :ref => 'master'
-  :default_branch => 'development'
+ # :default_branch => 'development'
 mod 'role',
   :git => 'git@github.com:dimashenkov/puppet-role2-master.git',
   :ref => 'master'
