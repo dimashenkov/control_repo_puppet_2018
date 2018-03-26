@@ -32,7 +32,7 @@ mod 'profile',
   :git => 'git@github.com:dimashenkov/puppet-profile-master.git',
   :ref => 'master'
   :default_branch => 'production'
-mod 'nginx',
-  :git => 'https://github.com/dimashenkov/control_repo_puppet_2018.git',
-  :ref => 'master'
-  :default_branch => 'production'
+#mod 'nginx',
+ # :git => 'https://github.com/dimashenkov/control_repo_puppet_2018.git',
+  #:ref => 'master'
+  #:default_branch => 'production'
