@@ -1,0 +1,10 @@
+---
+profile::nginx::vhosts:
+ - 'fqdn': 'dshenkov5.mylabserver.com'  #minusa - znachi hash
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'dshenkov5b.mylabserver.com'
+   'port': 80
+   'server_aliases': 'dshenkov6b1.mylabserver.com'
+#classes:
+ #- profile::nginx
