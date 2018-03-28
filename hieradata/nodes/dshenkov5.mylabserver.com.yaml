@@ -6,5 +6,5 @@ profile::nginx::vhosts:
  - 'fqdn': 'dshenkov5b.mylabserver.com'
    'port': 80
    'server_aliases': 'dshenkov6b1.mylabserver.com'
-#classes:
- #- profile::nginx
+classes:
+ - profile::nginx
