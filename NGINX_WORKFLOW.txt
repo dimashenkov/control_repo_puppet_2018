@@ -1,0 +1,36 @@
+1.SCELETON:
+================
+1.1 generate module
+1.2.touch files 
+manifest/config.pp
+instal.pp
+params.pp
+service.pp
+1.3.edit params.pp
+1.4edit init.pp + order wiring -> ,~> кое след кое да тръгва
+
+2.CORE CLASSES
+=============
+install.pp config.pp service.pp
+
+3.vhost.pp define type
+============= 
+notify -> service
+
+4.DIR MANAGEMENT застраховка че директориите ги има.(ensure i tn.)
+===============================
+config.pp
+vhost.pp
+
+5.TEMPLATES
+============================
+templates/conf.d/conf.erb
+templates/vhost/vhost.erb
+
+6.HIERADATA
+======================
+vim /etc/puppetlabs/puppet/hiera.yaml
+
+vim /etc/puppetlabs/code/environments/production/hieradata/nodes/dshenkov5.mylabserver.com.yaml
+ 
+vim nginx/manifests/nginx.pp
